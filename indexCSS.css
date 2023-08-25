@@ -1,0 +1,10 @@
+body{
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.tablaarriba {
+    border:"0";
+    background-color: darkkhaki;
+    position: sticky;
+    top: 0;
+}
