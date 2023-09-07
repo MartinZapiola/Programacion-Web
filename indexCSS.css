@@ -1,10 +1,82 @@
 body{
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    background-color: rgb(255,217,90);
+
+}
+
+.nombresminion{
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tablamuestra{
+    background: rgba(255,247,212,0.6);
+    width: 98vw; 
+}
+.titulo{
+    font-family: montserratbold,"Arial Black",Arial,Helvetica,sans-serif;
+
+}
+.ParrafoQuienesSomos{
+    font-family: montserratlight,Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    margin-bottom: 25px;
+
+}
+#Conocemas {
+    float: left;
+    width: 38.8%;
+}
+#header{
+    top: 0;
+    position: sticky;
+    background-color: rgb(76,61,61);
+    color: #C07F00;
+}
+#h1{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 400%;
+    margin-top: 0%;
 }
 .tablaarriba {
-    border:"0";
-    background-color: darkkhaki;
-    position: sticky;
-    top: 0;
+    width: 100vw;
+}
+
+
+.button {
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #C07F00;
+  }
+
+#Ayuda{
+    text-align: center;
+    background: rgb(76,61,61);
+    width: 100%;
+    padding: 10px 0;
+    color: #C07F00;
+}
+#widgets{
+    text-align: right;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li{
+    display: inline;
+    margin: 0;
+    padding: 1%;
+}
+.buscador{
+    padding-left: 2%;
+}
+.placeholder{
+    width: 60%;
+    background-color: #C07F00;
+    color: rgb(255,217,90);
 }

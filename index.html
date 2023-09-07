@@ -6,30 +6,39 @@
     <title>Lo de Gru</title>
     <link rel="stylesheet" href="indexCSS.css">
   </head>
-  <body background="./Primer proyecto/fotos/minion fondo.jpg">
-    <p>
-      <table 
-      class="tablaarriba">
-        <tr >
-            <th style="width: 500px;">
-                <td>Lo de Gru</td>
-            </th>
-            <tr>
+  <body>
+    <header id="header">
+      <h1 id="h1">Lo de Gru</h1>
+      <ul id="navegador">
+        <nav id="navegador">
+          <a href="" class="buscador"><input placeholder="Buscar..." type="text"  class="placeholder">
+            <button type="submit"><img src="./Primer proyecto/fotos/lupita.png" alt="" style="width: 15px;height: 15px;"></button></a>
 
-            <td><img src="./Primer proyecto/fotos/minion logo 2.png" alt="logominion" style="width: 80px;"></td>
-            <td style="width: 500px;"><input placeholder="Buscar..." type="text"><button type="submit"><img src="./Primer proyecto/fotos/lupita.png" alt="" style="width: 20px;height: 20px;"></button></td>
-            <td style="width: 200px;"><a href="./Ayuda.html"><button>Ayuda</button></a></td>
+          <div id="widgets">
+            <ul class="ul">
+              <li><a href="quienessomos.html" class="button">Quienes somos</a></li>
+              <li> <a href="" class="button">Login</a></li>
+              <li><a href="" class="button">Carrito</a></li>
+            </ul>
+           
+            
+          </div>
 
-        </tr>
-    </table>
-    </p>
+        </nav>
+    </header>
     <h2>Venta y Alquiler de Minions reales</h2>
     <p>
       Bienvenidos a "Lo de Gru", su exclusivo destino para acceder a una experiencia única en el mercado. Nos complace presentarle nuestro distinguido servicio de venta y alquiler de minions reales, en el cual convergen la diversión y la imaginación con la más alta calidad y profesionalismo. Con un enfoque meticuloso en cada detalle, ofrecemos la posibilidad de incorporar la entrañable presencia de estos carismáticos seres amarillos en una variedad de contextos, desde eventos corporativos y campañas publicitarias de alto nivel hasta funciones privadas. Adentrándonos en el mundo de "Lo de Gru", descubrirá un abanico de posibilidades para elevar sus experiencias a un nivel excepcional y dejar una impresión perdurable en la memoria de sus invitados o clientes.
     
     </p>
     <p>
-      <table class="tablamuestra" border="1"  style="background-color: tan ; ">
+      <table class="tablamuestra" border="1">
+        <tr class="nombresminion">
+          <td>Bob</td>
+          <td>Kevin</td>
+          <td>Stuart</td>
+          <td>Evil minion</td>
+        </tr>
         <tr>
           <td><img src="./Primer proyecto/fotos/minion bob.webp" alt="" style="width: 250px;height: 300px;"></td>
           <td><img src="./Primer proyecto/fotos/kevin minion.webp" alt="" style="width: 250px;height: 350px;"></td>
@@ -52,5 +61,20 @@
         </tr>
       </table>   
     </p>
+    <div id="Ayuda">
+      <h1 style="color: rgb(255,217,90);">Necesitas ayuda?</h1>
+
+      <p>
+          Mandanos un mail con tu pregunta para que nuestros expertos puedan contestarte lo antes posible.
+      </p>
+      <p>
+          <input type="email" id="email" name="email">
+          <label for="email">Escriba su email</label>
+      </p>
+      <p>
+          <input type="text" placeholder="Deje su duda..." class="cajaduda">
+          <input type="submit" value="enviar">
+      </p>
+    </div>
   </body>
   </html>
