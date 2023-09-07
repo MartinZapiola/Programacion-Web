@@ -80,3 +80,7 @@ li{
     background-color: #C07F00;
     color: rgb(255,217,90);
 }
+
+a:hover{
+    color: rgb(255,217,90);
+}
