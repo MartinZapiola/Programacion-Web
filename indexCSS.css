@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255,217,90);
+    background-color: #ffd95a;
 }
 
 .nombresminion{
@@ -12,10 +12,46 @@ body{
     color: #C07F00;
 
 }
-
+.ventayalq{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 .nombresminion:hover{
     color: #4c3d3d;
 }
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 10%; 
+    grid-template-areas: 
+      ". ."; 
+    padding: 8%;
+  }
+.botonvya{
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid #C07F00;
+    color: #C07F00;
+    text-align: center;
+    transition-duration: 0.4s;
+    padding: 16px 32px;
+
+
+}
+.botonvya:hover{
+    color: #ffd95a;
+    background-color: #C07F00;
+}
+h2{
+    text-align: center;
+}
+.desc{
+    text-align: center;
+}
+
 
 .titulo{
     font-family: montserratbold,"Arial Black",Arial,Helvetica,sans-serif;
