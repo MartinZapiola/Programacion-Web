@@ -1,8 +1,18 @@
-body {background-color: blueviolet;}
-h1{border-style: dotted solid;width: 8%;padding: 0px;position: sticky;top:0;background-color: darkseagreen;}
-h2{border-style: inset; width: 5.4%;}
-.parrafo-comun{color: black;}
-.parrafo-comun2{color: rgb(0, 0, 0);background-color: rgb(175, 75, 75);width: 50%; margin: 0px;padding-bottom: 0px;;}
-.fin{color: rgb(255, 0, 195);background-color: black;width: 1.15%;}
-.parrafo-comun3{color: black;background-color: gold;padding: 2cm;margin: 0px;}
-body{background-size: cover;}
+
+.foto{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px; 
+}
+
+@media(max-width:600px){
+    body{
+        background-color: black;
+    }
+}
+@media(min-width:600px){
+    body{
+        background-color: blue;
+    }
+}
