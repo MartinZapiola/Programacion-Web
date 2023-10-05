@@ -1,12 +1,10 @@
 @media screen and (max-width:426px)
 {
-    body{
-        background-color: azure;
-    }
+    
     #header{
         top: 0;
-        height: 23vw;
-        width: auto;
+        height: 20%;
+        width: 100%;
         
     }
     .h1{
