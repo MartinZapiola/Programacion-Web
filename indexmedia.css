@@ -1,0 +1,53 @@
+@media screen and (max-width:600px)
+{
+    body{
+        background-color: azure;
+    }
+    #header{
+        top: 0;
+        height: 15vw;
+        
+    }
+    .h1{
+        font-size: 2rem;
+    }
+    ul{
+        visibility: hidden;
+    }
+    .fotito{
+        width: 25rem;
+    }
+    .container {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "fotito . ."
+          "ventayalq . ."
+          ". . ."; 
+      }
+      .fotito { grid-area: fotito; }
+      .ventayalq { grid-area: ventayalq; }
+    .botonvya{
+        padding: 8px 16px;
+        font-size: 20px;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .muestratienda {
+        text-align: left;
+    }
+    .botonayuda{
+        padding: 8px 16px;
+        font-size: 20px;
+    }
+    .Minionsventa{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}

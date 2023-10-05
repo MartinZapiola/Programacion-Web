@@ -29,6 +29,10 @@ body{
       ". ."; 
     padding: 8%;
   }
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
 .botonvya{
     font-size: 24px;
     cursor: pointer;
@@ -180,20 +184,3 @@ li{
 
 }
 
-@media screen and (max-width:600px)
-{
-    body{
-        background-color: azure;
-    }
-    #header{
-        top: 0;
-        position: sticky;
-        background-color: #4c3d3d;
-        color: #C07F00;
-        height: 15vh;
-        margin: 0;
-    }
-    .elementosmuetra{
-        width: 98vw;
-    }
-}
