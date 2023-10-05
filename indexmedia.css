@@ -1,21 +1,23 @@
-@media screen and (max-width:600px)
+@media screen and (max-width:426px)
 {
     body{
         background-color: azure;
     }
     #header{
         top: 0;
-        height: 15vw;
+        height: 23vw;
+        width: auto;
         
     }
     .h1{
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
     ul{
         visibility: hidden;
+        display: block;
     }
     .fotito{
-        width: 25rem;
+        width: 22rem;
     }
     .container {
         display: grid; 
@@ -33,21 +35,29 @@
         padding: 8px 16px;
         font-size: 20px;
     }
-    .contenedor{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+    .desc{
+        font-size: 3vw;
     }
     .muestratienda {
-        text-align: left;
+        display: grid; 
+  grid-template-columns: 1.4fr 0.6fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 70px; 
+  grid-template-areas: 
+    "p a"; 
+    width: 99%;
     }
     .botonayuda{
+        display: flex;
         padding: 8px 16px;
-        font-size: 20px;
+        font-size: 30px;
     }
     .Minionsventa{
         display: flex;
         flex-wrap: wrap;
         text-align: center;
+    }
+    .contenedor{
+        display: block;
     }
 }
