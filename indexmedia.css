@@ -1,5 +1,8 @@
 @media screen and (max-width:426px)
 {
+    #Ayuda{
+        height: auto;
+    }
     
     #header{
         top: 0;
@@ -58,4 +61,5 @@
     .contenedor{
         display: block;
     }
+
 }
