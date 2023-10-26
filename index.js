@@ -82,3 +82,45 @@ const estudiantes=[
 console.log(estudiantes[2])
 console.table(estudiantes[1])
 
+
+let edad = parseInt(prompt("Ingrese su edad"))
+if (edad>=18){
+    console.log("Es mayor ("+edad+")");}
+else if (edad<18){
+    console.log("Es menor ("+edad+")")
+}
+else if (typeof(edad) != Number){
+    console.log("Valor no valido")
+}
+else{console.log("Error")}
+
+console.log(typeof(edad))
+
+alert("Esto es un cartel")
+
+
+let altura=parseInt(prompt("Ingresar altura: "))
+let peso=parseInt(prompt("Ingresar peso: "))
+
+if (typeof(altura)!=Number){
+    console.log("ERROR")
+}
+else if (altura<0){
+    console.log("ERROR")
+}
+
+if (typeof(peso)!=Number){
+    console.log("ERROR")
+}
+else if (peso<0){
+    console.log("ERROR")
+}
+
+function imc(a,b){
+    return a/(b**2)
+}
+
+if (imc(peso,altura)<18.5){
+    console.log("Peso inferior al normal")
+}
+else if ((imc(peso,altura)>18.5) and (imc(peso,altura)<24.9)){}
