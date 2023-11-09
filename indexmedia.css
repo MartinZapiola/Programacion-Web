@@ -67,7 +67,7 @@
         transform: translateY(-8px) rotate(-45deg);
     }
     .nav-menu{
-        position: absolute;
+        position: fixed;
         left: 100%;
         top: 90px;
         gap: 0;
@@ -83,5 +83,7 @@
     }
     .nav-menu.activate{
         left: 0;
+        position: absolute;
+        padding: 0;
     }
 }
