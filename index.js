@@ -120,7 +120,5 @@ function imc(a,b){
     return a/(b**2)
 }
 
-if (imc(peso,altura)<18.5){
-    console.log("Peso inferior al normal")
-}
-else if ((imc(peso,altura)>18.5) and (imc(peso,altura)<24.9)){}
+let nombre=prompt("Ingrese nombre")
+document.getElementsByClassName("titular").innerHTML="Hola "+nombre

@@ -1,6 +1,8 @@
 body{
     background-color: #ffd95a;
+    padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .nombresminion{
@@ -21,7 +23,7 @@ body{
 .nombresminion:hover{
     color: #4c3d3d;
 }
-.container {
+.ventaminions {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr; 
@@ -42,7 +44,7 @@ body{
     color: #C07F00;
     text-align: center;
     transition-duration: 0.4s;
-    padding: 16px 32px;
+    padding: 12% 15%;
 
 
 }
@@ -72,43 +74,11 @@ h2{
     float: left;
     width: 38.8%;
 }
-#header{
-    top: 0;
-    position: sticky;
-    background-color: #4c3d3d;
-    color: #C07F00;
-    height: 23vh;
-    width: 100%;
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-    ". . ."; 
 
-}
-.h1{
-    text-align: center;
-    font-family: 'Brush Script MT', cursive;
-    font-size: 400%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
 .tablaarriba {
     width: 100vw;
 }
 
-
-.button {
-    font-size: 24px;
-    cursor: pointer;
-    text-decoration: none;
-    outline: none;
-    color: #C07F00;
-    
-  }
 
 #Ayuda{
     text-align: center;
@@ -119,20 +89,8 @@ h2{
     display: flex;
     flex-direction: column;
 }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    
-}
-li{
-    display: inline;
-    margin: 5px;
-    padding: 1%;
-}
+
+
 .buscador{
     padding-left: 2%;
 }
@@ -162,7 +120,7 @@ li{
     height: 300px;
 }
 .contenedor{
-    padding: 120px 0;
+    padding: 15vw 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -201,4 +159,55 @@ padding: 16px 32px;
 
 .contactoboton:hover{
     color: #ffd95a;
+}
+
+
+
+
+
+header{
+    background-color: #4c3d3d;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #C07F00;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.navbar{
+    min-height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.nav-branding{
+    font-size: 4rem;
+}
+.nav-link{
+    transition: 0.7s ease;
+}
+.nav-link:hover{
+    color: #ffd95a;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px ;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #C07F00;
 }
