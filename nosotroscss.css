@@ -1,0 +1,40 @@
+body{
+    background-color: #4c3d3d;
+}
+
+p {
+    color: bisque;
+    text-align: center;
+}
+h1{
+    color: bisque;
+    text-align: center;
+}
+.contenedorNosotros{
+    display: flex;
+    align-content: center;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+.logo{
+    font-size: 2rem;
+    color: #C07F00;
+    font-weight: 400;
+    text-decoration: none;
+}
+.contenedordudas{
+    display: flex;
+}
+.enviar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.mensaje{
+    height: 80%;
+}
